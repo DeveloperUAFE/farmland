@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #FDFCEF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+    padding-top: 60px;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.start-frame {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 79px;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 140%;
+    color: #000000;
+    width: 465px;
+}
+
+.introtext {
+    width: 423px;
+    font-size: 18px;
+    color: #000000;
+}
+.btn {
+    display: flex;
+    padding: 22px 70px;
+
+    width: 227px;
+    background: #FF6861;
+    border-radius: 100px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    transition: all .3s;
+    color: #FFFFFF;
+}
+
+.btn:hover {
+    opacity: 90%;
+    transform: scale(1.1);
+}
+
+.info-about-game {
+    padding-top: 120px;
+}
+
+.what-game {
+    font-size: 40px;
+    padding-left: 104px;
+}
+
+.digitals {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 41px;    
+
+}
+
+.digital-item {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.png {
+    transition: all .5s;
+}
+
+.png:hover {
+    transform: scale(1.2);
+}
+
+.digital-title {
+    font-size: 30px;
+    margin-bottom: -11px;
+}
+
+.play-now-bottom {
+    padding-top: 120px;
+}
+
+.play-wrap {
+    background: linear-gradient(102deg, #FFF6DF 17.38%, #FFDFDE 81.25%);
+    border-radius: 60px;
+    display: flex;
+    align-items: center;
+    padding: 76px 125px 75px 122px;
+}
+
+.img {
+    margin-left: 101px;
+}
+
+.play-block {
+    width: 475px;
+}
+
+.play-title {
+    font-size: 40px;
+    width: 435px;
+}
+.play-text {
+    font-size: 18px;
+    margin: 24px 0;
+}
+
+.footer {
+    padding: 60px 0;
+    text-align: center;
+    display: block;
+    font-size: 15px;
+}
+
+.footer-text {
+    margin: 0;
+    line-height: 1.37em;
+}
